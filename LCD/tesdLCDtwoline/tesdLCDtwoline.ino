@@ -11,8 +11,8 @@ void setup()
   // initialize the LCD
   lcd.begin(); // lcd를 사용을 시작합니다.
   lcd.backlight(); // backlight를 On 시킵니다.
+  lcd.setCursor(0,1);
   lcd.print("Hello, world!"); // 화면에 Hello, world!를 출력합니다.
-  lcd.print(i);
 }
 
 void loop(){
